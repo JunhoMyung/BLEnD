@@ -1,7 +1,5 @@
-# ChaCha Project Website
-
-https://naver-ai.github.io/chacha/
-
+# BLEnD Project Website
+https://junhomyung.github.io/BLEnD/
 
 ## How to Run
 
