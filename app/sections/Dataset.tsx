@@ -444,7 +444,7 @@ export const Dataset = () => {
             <tbody>
               <tr>
                 <td>Food</td>
-                <td className="text-left">Τι street food συνηθίζουν να τρώνε οι άνθρωποι στην Ελλάδα; <br/>(What street food do people from Azerbaijan like to eat?)</td>
+                <td className="text-left">Azərbaycanlılar küçə yeməklərindən nə yeməyi xoşlayırlar?  <br/>(What street food do people from Azerbaijan like to eat?)</td>
                 <td className="text-left whitespace-nowrap">dönər (doner kebab): 5 </td>
               </tr>
               <tr>
