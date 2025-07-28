@@ -133,7 +133,7 @@ export const Members = () => {
         } as React.CSSProperties
       }
 
-    return <Section title="Contributors">
+    return <Section title="Contributors" id="neurips_members">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-3">
         {
             members.map(member => {

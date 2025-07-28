@@ -3,7 +3,7 @@ import React from "react"
 
 export const Evaluation = () => {
 
-    return <Section title="LLM Evaluation on BLEnD">
+    return <Section title="LLM Evaluation on BLEnD" id="neurips_evaluation">
         <p className="mb-4">
         We evaluate state-of-the-art LLMs on BLEND using short-answer and multiple-choice tasks.
         Our evaluation measures accuracy—whether model responses match human answers—and cultural bias, reflected in performance gaps across countries, regions, and languages.

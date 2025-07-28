@@ -13,7 +13,7 @@ const bibTex = '@inproceedings{myung-etal-2024-blend,\n\
 }'
 
 export const Cite = () => {
-    return <Section title="Citing This Work">
+    return <Section title="Citing This Work" id="neurips_cite">
         <div className="border-y-[1px] border-slate-400 py-3">
             <div>
                 Myung, Junho, et al. "Blend: A benchmark for llms on everyday knowledge in diverse cultures and languages." <i>Advances in Neural Information Processing Systems</i> 37 (2024): 78104-78146.

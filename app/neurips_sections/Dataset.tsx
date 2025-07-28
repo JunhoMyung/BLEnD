@@ -692,7 +692,7 @@ export const Dataset = () => {
 
 
 
-    return <Section title="Construction of BLEnD">
+    return <Section title="Construction of BLEnD" id="neurips_dataset">
         <p className="mb-4">
         We introduce BLEnD, a hand-crafted benchmark designed to evaluate large language models' knowledge of everyday life across diverse cultures and languages. BLEnD covers 16 countries/regions and 13 languages, focusing on cultural aspects like food, sports, family, education, holidays, and work life.
         The dataset construction involves:
