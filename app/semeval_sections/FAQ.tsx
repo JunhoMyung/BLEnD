@@ -12,10 +12,6 @@ export const FAQ = () => {
                 To be included in the final team rankings of our shared task, it is mandatory for participants to submit a system description paper describing their approaches and methodologies in detail, therefore ensuring scientific integrity.
             </li>
             <li>
-                <strong>When will you release the gold labels?</strong><br />
-                For the dev set, the gold labels will be released when the evaluation phase starts and the gold labels for the different test sets will be released after the competition is over.
-            </li>
-            <li>
                 <strong>Can I use LLMs in the different tracks?</strong><br />
                 Yes.
             </li>
@@ -25,7 +21,7 @@ export const FAQ = () => {
             </li>
             <li>
                 <strong>How was the data collected?</strong><br />
-                The data collection process is a standard one. You can check previous papers in the area to have an idea (e.g., <a href="https://aclanthology.org/S18-1001.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline"> https://aclanthology.org/S18-1001.pdf</a>). We have data instances (cultural questions) answered by more than 5 annotators. The annotators can provide up to three answers, or note that there is no specific answer for the given question in thier cultural context. Details will be shared in the dataset paper.
+                Please check our NeurIPS2024 paper (https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html).
             </li>
             <li>
                 <strong>How was the data annotated and did you use LLMs to annotate it?</strong><br />
