@@ -20,10 +20,6 @@ export const FAQ = () => {
                 Yes. Please do cite them in the system description paper.
             </li>
             <li>
-                <strong>How was the data collected?</strong><br />
-                Please check our NeurIPS2024 paper (https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html).
-            </li>
-            <li>
                 <strong>How was the data annotated and did you use LLMs to annotate it?</strong><br />
                 No. The data was annotated by native speakers (≥5 per instance), not LLMs. Annotators answered the given cultural question based on their cultural background, without aksing the LLM. Different answer options were expected since this is a subjective task. See the task definition for more details.
             </li>
