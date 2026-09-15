@@ -21,6 +21,7 @@ const tab1Toc = [
   { id: "semeval_faq", label: "FAQs" },
   { id: "semeval_resources", label: "Resources" },
   { id: "semeval_organizers", label: "Organizers" },
+  { id: "semeval_cite", label: "Cite" },
 ];
 
 const tab2Toc = [
@@ -49,6 +50,7 @@ export function App() {
             <FAQ />
             <Resources/>
             <Organizers />
+            <Cite id="semeval_cite" />
           </>
         );
       case "tab2":

@@ -12,8 +12,23 @@ const bibTex = '@inproceedings{myung-etal-2024-blend,\n\
 &emsp;&emsp;year = {2024}\n\
 }'
 
-export const Cite = () => {
-    return <Section title="Citing This Work" id="neurips_cite">
+const semevalBibTex = '@inproceedings{ousidhoum-etal-2026-semeval,\n\
+&emsp;&emsp;title = "{S}em{E}val-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures",\n\
+&emsp;&emsp;author = "Ousidhoum, Nedjma and Myung, Junho and Perez-Almendros, Carla and Jin, Jiho and Keleg, Amr and Beloucif, Meriem and Zhou, Yi and Agerri, Rodrigo and Araujo, Vladimir and Baes, Naomi and Barry, James and Boisson, Joanne and Chen, Nancy F. and de Kock, Christine and Edwards, Aleksandra and Fernandez de Landa, Joseba and Fazli Imam, Mohamed and Hakami, Huda and Hsieh, Shu-Kai and Imperial, Joseph Marvin and Lee, Roy Ka-Wei and Liu, Zhengyuan and Lyu, Chenyang and Samih, Younes and Sjons, Johan and Tan, Bryan and Ushio, Asahi and Zheng, Weihua and Oh, Alice and Camacho-Collados, Jose",\n\
+&emsp;&emsp;editor = "Kochmar, Ekaterina and Ghosh, Debanjan and North, Kai and Komachi, Mamoru and Zampieri, Marcos",\n\
+&emsp;&emsp;booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (2026)",\n\
+&emsp;&emsp;month = jul,\n\
+&emsp;&emsp;year = "2026",\n\
+&emsp;&emsp;address = "San Diego, California, USA",\n\
+&emsp;&emsp;publisher = "Association for Computational Linguistics",\n\
+&emsp;&emsp;url = "https://aclanthology.org/2026.semeval-1.455/",\n\
+&emsp;&emsp;doi = "10.18653/v1/2026.semeval-1.455",\n\
+&emsp;&emsp;pages = "3823--3837",\n\
+&emsp;&emsp;ISBN = "979-8-89176-414-9"\n\
+}'
+
+export const Cite = (props: { id?: string }) => {
+    return <Section title="Citing This Work" id={props.id ?? "neurips_cite"}>
         <div className="border-y-[1px] border-slate-400 py-3">
             <div>
                 Myung, Junho, et al. "Blend: A benchmark for llms on everyday knowledge in diverse cultures and languages." <i>Advances in Neural Information Processing Systems</i> 37 (2024): 78104-78146.
@@ -24,6 +39,18 @@ export const Cite = () => {
                 <p
                 className="p-3 font-mono text-xs sm:text-sm border border-slate-300 rounded-lg whitespace-pre overflow-x-auto"
                 dangerouslySetInnerHTML={{ __html: bibTex }}
+                />
+            </div>
+        <div className="mt-8 border-y-[1px] border-slate-400 py-3">
+            <div>
+                Ousidhoum, Nedjma, et al. "SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures." <i>Proceedings of the 20th International Workshop on Semantic Evaluation (2026)</i> (2026): 3823-3837.
+            </div>
+        </div>
+        <div className="mt-4">
+            <div className="font-bold mb-1">BibTeX</div>
+                <p
+                className="p-3 font-mono text-xs sm:text-sm border border-slate-300 rounded-lg whitespace-pre overflow-x-auto"
+                dangerouslySetInnerHTML={{ __html: semevalBibTex }}
                 />
             </div>
     </Section>
